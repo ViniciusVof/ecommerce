@@ -11,4 +11,5 @@ export const theme = {
   line: "#D9D9D9",
   yellow: "#E3BC01",
   boxedWidth: "1200px",
+  discountColorPrice: "#249B3E",
 };
