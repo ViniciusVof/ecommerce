@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -21,6 +22,28 @@ export const Wrapper = styled.div`
     border: 1px solid ${(props) => props.theme.primary};
     box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.05);
   }
+`;
+
+export const ProductDiscountFlag = styled.div`
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  width: 51px;
+  height: 53px;
+
+  border-radius: 0px 16px;
+
+  background-color: ${(props) => props.theme.primary};
+  color: ${(props) => props.theme.white};
+
+  font-size: 14px;
+  font-weight: 500;
 `;
 
 export const ProductImageContainer = styled.div`

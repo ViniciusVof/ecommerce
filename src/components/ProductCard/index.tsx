@@ -1,6 +1,7 @@
 import { formatMoney } from "../../utils/formatMoney";
 import {
   ProductDiscount,
+  ProductDiscountFlag,
   ProductImage,
   ProductImageContainer,
   ProductInformations,
@@ -17,8 +18,15 @@ interface IProductCards {
 }
 
 export function ProductCard({ title, image, price, oldPrice }: IProductCards) {
+  const percentDiscount = ((price / oldPrice) * 100).toFixed(0);
   return (
     <Wrapper>
+      <ProductDiscountFlag>
+        {percentDiscount}%
+        <br />
+        OFF
+      </ProductDiscountFlag>
+
       <ProductImageContainer>
         <ProductImage src={image} />
       </ProductImageContainer>
