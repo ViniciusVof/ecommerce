@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Eletrônicos"
+  },
+  {
+    "id": 2,
+    "title": "Roupas"
+  },
+  {
+    "id": 3,
+    "title": "Casa e Cozinha"
+  },
+  {
+    "id": 4,
+    "title": "Beleza e Cuidados Pessoais"
+  },
+  {
+    "id": 5,
+    "title": "Esportes e Lazer"
+  },
+  {
+    "id": 6,
+    "title": "Automotivo"
+  },
+  {
+    "id": 7,
+    "title": "Jardim e Outdoor"
+  },
+  {
+    "id": 8,
+    "title": "Livros e Papelaria"
+  }
+]
