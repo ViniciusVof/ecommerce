@@ -1,4 +1,5 @@
 import { AnnouncementBar } from "../../components/AnnouncementBar";
+import { CollectionCard } from "../../components/CollectionCard";
 import { ProductCard } from "../../components/ProductCard";
 
 export function Home() {
@@ -10,6 +11,11 @@ export function Home() {
         title="Vanish"
         price={50.99}
         oldPrice={80.99}
+      />
+
+      <CollectionCard
+        image="https://giassi.vtexassets.com/arquivos/ids/1162922/Tira-Manchas-Po-Vanish-Oxi-Action-Pacote-240g-Refil-Economico.png?v=638510167815300000"
+        title="Cosméticos"
       />
       <h1>Home</h1>
     </>
