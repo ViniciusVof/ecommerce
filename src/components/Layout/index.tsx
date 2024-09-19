@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import { AnnouncementBar } from "@components/AnnouncementBar";
-import { BoxedContainer, Wrapper } from "./styles";
+import { BoxedContainer } from "./styles";
 import { Footer } from "@components/Footer";
 import { Header } from "@components/Header";
 import { MenuHeader } from "@components/MenuHeader";
