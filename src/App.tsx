@@ -5,6 +5,9 @@ import { theme } from "./config/theme";
 
 const GlobalStyle = createGlobalStyle`
   ${reset}
+  *{
+    box-sizing: border-box;
+  }
   body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
