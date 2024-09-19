@@ -14,11 +14,11 @@ interface IProductCards {
   title: string;
   image: string;
   price: number;
-  oldPrice: number;
+  oldPrice?: number;
 }
 
 export function ProductCard({ title, image, price, oldPrice }: IProductCards) {
-  const percentDiscount = ((price / oldPrice) * 100).toFixed(0);
+  const percentDiscount = oldPrice && ((price / oldPrice) * 100).toFixed(0);
   return (
     <Wrapper>
       <ProductDiscountFlag>
@@ -33,11 +33,14 @@ export function ProductCard({ title, image, price, oldPrice }: IProductCards) {
       <ProductInformations>
         <ProductTitle>{title}</ProductTitle>
         <ProductPrice>
-          {formatMoney(price)} <span>{formatMoney(oldPrice)}</span>
+          {formatMoney(price)}{" "}
+          {oldPrice && <span>{formatMoney(oldPrice)}</span>}
         </ProductPrice>
-        <ProductDiscount>
-          Economize - {formatMoney(oldPrice - price)}
-        </ProductDiscount>
+        {oldPrice && (
+          <ProductDiscount>
+            Economize - {formatMoney(oldPrice - price)}
+          </ProductDiscount>
+        )}
       </ProductInformations>
     </Wrapper>
   );

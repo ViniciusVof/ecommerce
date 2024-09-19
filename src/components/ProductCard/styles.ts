@@ -68,6 +68,7 @@ export const ProductInformations = styled.div`
   background-color: ${(props) => props.theme.white};
   display: flex;
   flex-direction: column;
+  flex: 1;
 `;
 
 export const ProductTitle = styled.h2`
