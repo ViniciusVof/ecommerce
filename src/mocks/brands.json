@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone",
+    "imageURL": "public/banners/banner1.png"
+  },
+  {
+    "id": 2,
+    "name": "Realme",
+    "imageURL": "public/banners/banner2.png"
+  },
+  {
+    "id": 3,
+    "name": "Xiaomi",
+    "imageURL": "public/banners/banner3.png"
+  }
+]
