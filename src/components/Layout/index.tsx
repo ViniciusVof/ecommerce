@@ -11,13 +11,13 @@ interface ILayout {
 }
 export function Layout({ children }: ILayout) {
   return (
-    <Wrapper>
+    <>
       <AnnouncementBar />
       <Header />
       <MenuHeader menuItems={mainMenu} />
 
       <BoxedContainer>{children}</BoxedContainer>
       <Footer />
-    </Wrapper>
+    </>
   );
 }
