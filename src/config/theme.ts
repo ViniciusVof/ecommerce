@@ -12,4 +12,5 @@ export const theme = {
   yellow: "#E3BC01",
   boxedWidth: "1200px",
   discountColorPrice: "#249B3E",
+  separatorFooter: "#05ABF3",
 };
