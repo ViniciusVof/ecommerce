@@ -1,9 +1,6 @@
 import brands from "@mocks/brands.json";
 import { BrandContainer, Wrapper } from "./styles";
 
-import "swiper/css";
-import "swiper/css/pagination";
-
 import { Pagination } from "swiper/modules";
 
 export function BrandsCarousel() {

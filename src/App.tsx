@@ -3,6 +3,9 @@ import { Home } from "@pages/Home";
 import reset from "styled-reset";
 import { theme } from "@config/theme";
 
+import "swiper/css";
+import "swiper/css/pagination";
+
 const GlobalStyle = createGlobalStyle`
   ${reset}
   *{
