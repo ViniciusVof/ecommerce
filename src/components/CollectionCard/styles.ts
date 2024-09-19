@@ -17,6 +17,7 @@ export const CollectionImageContainer = styled.div`
   width: 132px;
   height: 132px;
   border-radius: 50%;
+  padding: 20px;
   background-color: ${(props) => props.theme.backgroundPrimary};
 
   transition: all 200ms;
@@ -31,8 +32,8 @@ export const CollectionImageContainer = styled.div`
 
 export const CollectionImage = styled.img`
   object-fit: contain;
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 100%;
+  max-height: 100%;
 `;
 
 export const CollectionTitle = styled.p`
