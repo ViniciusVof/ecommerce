@@ -2,6 +2,7 @@ import { BlockContent } from "@components/BlockContent";
 import { BrandsCarousel } from "@components/BrandsCarousel";
 import { CollectionCarousel } from "@components/CollectionCarousel";
 import { Layout } from "@components/Layout";
+import { OfferCarousel } from "@components/OfferCarousel";
 import { ProductCarousel } from "@components/ProductCarousel";
 import { SlideCarousel } from "@components/SlideCaroulsel";
 
@@ -19,6 +20,10 @@ export function Home() {
 
       <BlockContent title="Top [highlight]Electronic Brands[/highlight]">
         <BrandsCarousel />
+      </BlockContent>
+
+      <BlockContent title="Daily [highlight]Essentials[/highlight]">
+        <OfferCarousel />
       </BlockContent>
     </Layout>
   );
