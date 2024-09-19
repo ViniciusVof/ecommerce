@@ -21,11 +21,13 @@ export function ProductCard({ title, image, price, oldPrice }: IProductCards) {
   const percentDiscount = oldPrice && ((price / oldPrice) * 100).toFixed(0);
   return (
     <Wrapper>
-      <ProductDiscountFlag>
-        {percentDiscount}%
-        <br />
-        OFF
-      </ProductDiscountFlag>
+      {!!percentDiscount && (
+        <ProductDiscountFlag>
+          {percentDiscount}%
+          <br />
+          OFF
+        </ProductDiscountFlag>
+      )}
 
       <ProductImageContainer>
         <ProductImage src={image} />
