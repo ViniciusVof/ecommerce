@@ -1,6 +1,6 @@
-import { CollectionCard } from "../CollectionCard";
+import { CollectionCard } from "@components/CollectionCard";
 
-import collections from "../../mocks/collections.json";
+import collections from "@mocks/collections.json";
 import { Wrapper } from "./styles";
 
 export function CollectionCarousel() {

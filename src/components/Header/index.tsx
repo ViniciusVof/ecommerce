@@ -8,12 +8,12 @@ import {
   Wrapper,
 } from "./styles";
 
-import AccountSVG from "../../assets/user.svg";
-import CartSVG from "../../assets/cart.svg";
-import LogoSVG from "../../assets/mainLogo.svg";
-import { TextField } from "../TextField";
+import AccountSVG from "@assets/user.svg";
+import CartSVG from "@assets/cart.svg";
+import LogoSVG from "@assets/mainLogo.svg";
+import { TextField } from "@components/TextField";
 
-import SearchSVG from "../../assets/search.svg";
+import SearchSVG from "@assets/search.svg";
 
 export function Header() {
   return (

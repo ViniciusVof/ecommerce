@@ -1,8 +1,8 @@
 import { ReactNode } from "react";
-import { AnnouncementBar } from "../AnnouncementBar";
+import { AnnouncementBar } from "@components/AnnouncementBar";
 import { BoxedContainer, Wrapper } from "./styles";
-import { Footer } from "../Footer";
-import { Header } from "../Header";
+import { Footer } from "@components/Footer";
+import { Header } from "@components/Header";
 
 interface ILayout {
   children: ReactNode;

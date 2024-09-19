@@ -5,9 +5,9 @@ import {
   TopRightImage,
   Wrapper,
 } from "./styles";
-import BackgroundFooterImage from "../../assets/backgroundFooter.svg";
-import { BlockVerticalMenu } from "../BlockVerticalMenu";
-import { ContactUsBlock } from "../ContactUsBlock";
+import BackgroundFooterImage from "@assets/backgroundFooter.svg";
+import { BlockVerticalMenu } from "@components/BlockVerticalMenu";
+import { ContactUsBlock } from "@components/ContactUsBlock";
 
 export function Footer() {
   const actualYer = new Date().getFullYear();

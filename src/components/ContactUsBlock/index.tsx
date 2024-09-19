@@ -1,10 +1,10 @@
 import { ReactSVG } from "react-svg";
 import { ContactItem, ContactItemInformations, Wrapper } from "./styles";
 
-import WhatsAppSVG from "../../assets/whatsapp.svg";
-import PhoneSVG from "../../assets/phone.svg";
+import WhatsAppSVG from "@assets/whatsapp.svg";
+import PhoneSVG from "@assets/phone.svg";
 
-import LogoSVG from "../../assets/logo.svg";
+import LogoSVG from "@assets/logo.svg";
 
 interface IContactUsBlock {
   showLogo?: boolean;

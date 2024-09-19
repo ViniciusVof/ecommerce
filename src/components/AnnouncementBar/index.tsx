@@ -1,8 +1,8 @@
 import { Container, MenuItem, MenuContainer, Wrapper } from "./styles";
 import { ReactSVG } from "react-svg";
-import LocationSVG from "../../assets/location.svg";
-import DeliveryTruckSVG from "../../assets/deliveryTruck.svg";
-import DiscountSVG from "../../assets/discount.svg";
+import LocationSVG from "@assets/location.svg";
+import DeliveryTruckSVG from "@assets/deliveryTruck.svg";
+import DiscountSVG from "@assets/discount.svg";
 
 export function AnnouncementBar() {
   return (

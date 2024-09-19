@@ -5,7 +5,7 @@ import {
   TitleBlockContent,
   Wrapper,
 } from "./styles";
-import { highlightText } from "../../utils/highlightText";
+import { highlightText } from "@utils/highlightText";
 
 interface IBlockContent {
   title: string;

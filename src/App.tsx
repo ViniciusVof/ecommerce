@@ -1,7 +1,7 @@
 import { createGlobalStyle, ThemeProvider } from "styled-components";
-import { Home } from "./pages/Home";
+import { Home } from "@pages/Home";
 import reset from "styled-reset";
-import { theme } from "./config/theme";
+import { theme } from "@config/theme";
 
 const GlobalStyle = createGlobalStyle`
   ${reset}

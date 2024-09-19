@@ -1,7 +1,7 @@
-import { BlockContent } from "../../components/BlockContent";
-import { CollectionCarousel } from "../../components/CollectionCarousel";
-import { Layout } from "../../components/Layout";
-import { ProductCarousel } from "../../components/ProductCarousel";
+import { BlockContent } from "@components/BlockContent";
+import { CollectionCarousel } from "@components/CollectionCarousel";
+import { Layout } from "@components/Layout";
+import { ProductCarousel } from "@components/ProductCarousel";
 
 export function Home() {
   return (

@@ -1,4 +1,4 @@
-import { formatMoney } from "../../utils/formatMoney";
+import { formatMoney } from "@utils/formatMoney";
 import {
   ProductDiscount,
   ProductDiscountFlag,

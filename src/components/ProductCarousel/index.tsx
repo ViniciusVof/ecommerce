@@ -1,6 +1,6 @@
 import { Wrapper } from "./styles";
-import products from "../../mocks/productsBlockContent.json";
-import { ProductCard } from "../ProductCard";
+import products from "@mocks/productsBlockContent.json";
+import { ProductCard } from "@components/ProductCard";
 
 export function ProductCarousel() {
   return (
