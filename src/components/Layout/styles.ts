@@ -7,4 +7,5 @@ export const Wrapper = styled.main`
 `;
 export const BoxedContainer = styled.div`
   max-width: ${(props) => props.theme.boxedWidth};
+  padding: 20px 0px;
 `;

@@ -5,6 +5,8 @@ import { theme } from "@config/theme";
 
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
+import "swiper/css/autoplay";
 
 const GlobalStyle = createGlobalStyle`
   ${reset}

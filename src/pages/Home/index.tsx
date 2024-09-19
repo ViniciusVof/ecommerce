@@ -3,10 +3,12 @@ import { BrandsCarousel } from "@components/BrandsCarousel";
 import { CollectionCarousel } from "@components/CollectionCarousel";
 import { Layout } from "@components/Layout";
 import { ProductCarousel } from "@components/ProductCarousel";
+import { SlideCarousel } from "@components/SlideCaroulsel";
 
 export function Home() {
   return (
     <Layout>
+      <SlideCarousel />
       <BlockContent title="Shop From [highlight]Top Categories[/highlight]">
         <ProductCarousel />
       </BlockContent>
