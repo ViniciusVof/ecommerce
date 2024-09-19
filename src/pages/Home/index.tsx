@@ -1,13 +1,11 @@
-import { AnnouncementBar } from "../../components/AnnouncementBar";
 import { BlockContent } from "../../components/BlockContent";
 import { CollectionCarousel } from "../../components/CollectionCarousel";
+import { Layout } from "../../components/Layout";
 import { ProductCarousel } from "../../components/ProductCarousel";
 
 export function Home() {
   return (
-    <>
-      <AnnouncementBar />
-
+    <Layout>
       <BlockContent title="Shop From [highlight]Top Categories[/highlight]">
         <ProductCarousel />
       </BlockContent>
@@ -15,6 +13,6 @@ export function Home() {
       <BlockContent title="Shop From [highlight]Top Categories[/highlight]">
         <CollectionCarousel />
       </BlockContent>
-    </>
+    </Layout>
   );
 }
