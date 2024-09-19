@@ -36,7 +36,7 @@ export function Header() {
 
           <ActionItem>
             <ReactSVG src={CartSVG} />
-            <p>Sign Up/Sign In</p>
+            <p>Cart</p>
           </ActionItem>
         </ActionsContainer>
       </Container>
