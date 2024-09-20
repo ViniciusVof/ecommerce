@@ -20,6 +20,7 @@ export function Product() {
             price={product.price}
             oldPrice={product.oldPrice}
             installments={12}
+            variants={product.variants}
           />
         </ProductHeader>
         <p>{product?.description}</p>
