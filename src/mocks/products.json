@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "images": [
+      {
+        "id": 1,
+        "order": 1,
+        "url": "https://giassi.vtexassets.com/arquivos/ids/1162922/Tira-Manchas-Po-Vanish-Oxi-Action-Pacote-240g-Refil-Economico.png?v=638510167815300000"
+      },
+      {
+        "id": 2,
+        "order": 2,
+        "url": "https://images.philips.com/is/image/PhilipsConsumer/HD9650_90-IMS-en_GB?wid=1250&hei=1250&$pnglarge$"
+      },
+      {
+        "id": 3,
+        "order": 3,
+        "url": "https://images.tcdn.com.br/img/img_prod/939893/paraf_furad_20v_max_li_i_on_c_imp_s_bat_2528_1_68e9348d9d04bd7a55fac9b6752ea3cb.png"
+      },
+      {
+        "id": 4,
+        "order": 4,
+        "url": "https://1001utilidadespa.com.br/wp-content/uploads/2023/10/luminaria-arvore-1001-Utilidades-Pouso-Alegre-MG.png"
+      },
+      {
+        "id": 5,
+        "order": 5,
+        "url": "https://cdn.awsli.com.br/800x800/2510/2510599/produto/232975504/apple-watch-series-9-45mm-gps-case-aluminio-midnight-pulseira-midnight-sport-ban-y2ab39noj6.png"
+      }
+    ],
+    "title": "Título de produto",
+    "price": 50.99,
+    "oldPrice": 80.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+  }
+]
