@@ -1,5 +1,4 @@
 import { createGlobalStyle, ThemeProvider } from "styled-components";
-import { Home } from "@pages/Home";
 import reset from "styled-reset";
 import { theme } from "@config/theme";
 
@@ -7,6 +6,10 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
+import "swiper/css/free-mode";
+import "swiper/css/thumbs";
+
+import Routes from "@routes/index";
 
 const GlobalStyle = createGlobalStyle`
   ${reset}
@@ -41,7 +44,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <Home />
+      <Routes />
     </ThemeProvider>
   );
 }

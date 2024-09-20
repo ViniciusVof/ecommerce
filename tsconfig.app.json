@@ -7,7 +7,8 @@
       "@utils/*": ["utils/*"],
       "@mocks/*": ["mocks/*"],
       "@config/*": ["config/*"],
-      "@pages/*": ["pages/*"]
+      "@pages/*": ["pages/*"],
+      "@routes/*": ["routes/*"]
     },
     "target": "ES2020",
     "useDefineForClassFields": true,
