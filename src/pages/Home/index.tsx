@@ -4,7 +4,7 @@ import { CollectionCarousel } from "@components/CollectionCarousel";
 import { Layout } from "@components/Layout";
 import { OfferCarousel } from "@components/OfferCarousel";
 import { ProductCarousel } from "@components/ProductCarousel";
-import { SlideCarousel } from "@components/SlideCaroulsel";
+import { SlideCarousel } from "@components/SlideCarousel";
 
 export function Home() {
   return (

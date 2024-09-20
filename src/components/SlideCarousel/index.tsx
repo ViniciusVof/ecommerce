@@ -1,21 +1,13 @@
+import { SlideButton } from "@components/SlideButton";
 import { SlideContainer, Slider, Wrapper } from "./styles";
 import slides from "@mocks/slides.json";
-import { ReactSVG } from "react-svg";
 
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
-
-import NextSlideSVG from "@assets/nextSlide.svg";
-import PreviousSVG from "@assets/previousSlide.svg";
 
 export function SlideCarousel() {
   return (
     <Wrapper>
-      <button className="nextSlideButton">
-        <ReactSVG src={NextSlideSVG} />
-      </button>
-      <button className="previousSlideButton">
-        <ReactSVG src={PreviousSVG} />
-      </button>
+      <SlideButton />
       <Slider
         slidesPerView={1}
         pagination={{
