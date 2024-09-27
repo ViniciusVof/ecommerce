@@ -10,7 +10,10 @@ export function Home() {
   return (
     <Layout>
       <SlideCarousel />
-      <BlockContent title="Shop From [highlight]Top Categories[/highlight]">
+      <BlockContent
+        title="Shop From [highlight]Top Categories[/highlight]"
+        redirect="/products"
+      >
         <ProductCarousel />
       </BlockContent>
 

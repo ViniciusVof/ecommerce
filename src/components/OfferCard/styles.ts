@@ -12,6 +12,7 @@ export const OfferImageContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 
   width: 187px;
   height: 187px;

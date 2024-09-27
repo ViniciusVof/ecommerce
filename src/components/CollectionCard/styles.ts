@@ -14,6 +14,8 @@ export const CollectionImageContainer = styled.div`
   align-items: center;
   justify-content: center;
 
+  cursor: pointer;
+
   width: 132px;
   height: 132px;
   border-radius: 50%;

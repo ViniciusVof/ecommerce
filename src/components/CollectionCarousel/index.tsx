@@ -13,9 +13,9 @@ export function CollectionCarousel() {
       }}
       modules={[Pagination]}
     >
-      {collections.map(({ title, image }, index) => (
+      {collections.map(({ title, image, slug }, index) => (
         <CollectionCardContainer key={index}>
-          <CollectionCard title={title} image={image} />
+          <CollectionCard title={title} image={image} slug={slug} />
         </CollectionCardContainer>
       ))}
     </Wrapper>

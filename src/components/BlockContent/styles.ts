@@ -39,4 +39,5 @@ export const SeeAllBlockContent = styled.div`
   display: flex;
   gap: 6px;
   font-size: 16px;
+  cursor: pointer;
 `;

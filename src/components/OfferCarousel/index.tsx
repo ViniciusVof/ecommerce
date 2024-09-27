@@ -13,9 +13,14 @@ export function OfferCarousel() {
       }}
       modules={[Pagination]}
     >
-      {offers.map(({ category, title, image }, index) => (
+      {offers.map(({ category, title, image, slug }, index) => (
         <OfferCardContainer key={index}>
-          <OfferCard title={title} image={image} category={category} />
+          <OfferCard
+            title={title}
+            image={image}
+            category={category}
+            slug={slug}
+          />
         </OfferCardContainer>
       ))}
     </Wrapper>
