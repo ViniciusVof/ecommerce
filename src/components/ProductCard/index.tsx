@@ -9,18 +9,28 @@ import {
   ProductTitle,
   Wrapper,
 } from "./styles";
+import { useNavigate } from "react-router-dom";
 
 interface IProductCards {
   title: string;
   image: string;
   price: number;
   oldPrice?: number;
+  slug: string;
 }
 
-export function ProductCard({ title, image, price, oldPrice }: IProductCards) {
+export function ProductCard({
+  title,
+  image,
+  price,
+  oldPrice,
+  slug,
+}: IProductCards) {
   const percentDiscount = oldPrice && ((price / oldPrice) * 100).toFixed(0);
+  const navigate = useNavigate();
+
   return (
-    <Wrapper>
+    <Wrapper onClick={() => navigate(`product/${slug}`)}>
       {!!percentDiscount && (
         <ProductDiscountFlag>
           {percentDiscount}%

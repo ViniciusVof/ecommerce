@@ -16,7 +16,9 @@ export const Container = styled.div`
   justify-content: space-between;
   max-width: ${(props) => props.theme.boxedWidth};
 `;
-export const LogoContainer = styled.div``;
+export const LogoContainer = styled.div`
+  cursor: pointer;
+`;
 
 export const SearchContainer = styled.div`
   margin-left: auto;

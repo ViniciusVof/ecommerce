@@ -14,12 +14,14 @@ import LogoSVG from "@assets/mainLogo.svg";
 import { TextField } from "@components/TextField";
 
 import SearchSVG from "@assets/search.svg";
+import { useNavigate } from "react-router-dom";
 
 export function Header() {
+  const navigate = useNavigate();
   return (
     <Wrapper>
       <Container>
-        <LogoContainer>
+        <LogoContainer onClick={() => navigate("/")}>
           <ReactSVG src={LogoSVG} />
         </LogoContainer>
         <SearchContainer>

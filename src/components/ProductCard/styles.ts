@@ -11,6 +11,8 @@ export const Wrapper = styled.div`
   border-radius: 16px;
   border: 1px solid ${(props) => props.theme.border};
 
+  cursor: pointer;
+
   height: 295px;
   width: 227px;
 

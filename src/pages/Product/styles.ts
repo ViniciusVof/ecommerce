@@ -13,6 +13,6 @@ export const ProductHeader = styled.div`
 `;
 
 export const ImageContainer = styled.div`
-  width: 50%;
+  min-width: 50%;
   height: 400px;
 `;

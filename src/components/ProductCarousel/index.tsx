@@ -26,6 +26,7 @@ export function ProductCarousel() {
                 image={product?.images[0].url}
                 price={product?.price}
                 oldPrice={product?.oldPrice}
+                slug={product?.slug}
               />
             )}
           </ProductCardContainer>
