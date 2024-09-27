@@ -41,7 +41,13 @@ export default function ProductImages({ images }: IProductImages) {
           .sort((a, b) => a.order - b.order)
           .map(({ url }) => (
             <ThumbsSlide>
-              <img src={url} />
+              <img
+                src={url ?? import.meta.env.VITE_APP_PRODUCT_IMAGE_PLACEHOLDER}
+                onError={(e) =>
+                  (e.currentTarget.src =
+                    import.meta.env.VITE_APP_PRODUCT_IMAGE_PLACEHOLDER)
+                }
+              />
             </ThumbsSlide>
           ))}
       </ThumbsWrapper>
@@ -68,7 +74,15 @@ export default function ProductImages({ images }: IProductImages) {
             .sort((a, b) => a.order - b.order)
             .map(({ url }) => (
               <ActiveProductImageSlide>
-                <img src={url} />
+                <img
+                  src={
+                    url ?? import.meta.env.VITE_APP_PRODUCT_IMAGE_PLACEHOLDER
+                  }
+                  onError={(e) =>
+                    (e.currentTarget.src =
+                      import.meta.env.VITE_APP_PRODUCT_IMAGE_PLACEHOLDER)
+                  }
+                />
               </ActiveProductImageSlide>
             ))}
         </ActiveProductImageContainer>

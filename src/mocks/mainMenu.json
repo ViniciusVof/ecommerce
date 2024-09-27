@@ -1,34 +1,42 @@
 [
   {
     "id": 1,
-    "title": "Eletrônicos"
+    "title": "Eletrônicos",
+    "slug": "eletronicos"
   },
   {
     "id": 2,
-    "title": "Roupas"
+    "title": "Roupas",
+    "slug": "roupas"
   },
   {
     "id": 3,
-    "title": "Casa e Cozinha"
+    "title": "Casa e Cozinha",
+    "slug": "casa-e-cozinha"
   },
   {
     "id": 4,
-    "title": "Beleza e Cuidados Pessoais"
+    "title": "Beleza e Cuidados Pessoais",
+    "slug": "beleza-e-cuidados-pessoais"
   },
   {
     "id": 5,
-    "title": "Esportes e Lazer"
+    "title": "Esportes e Lazer",
+    "slug": "esportes-e-lazer"
   },
   {
     "id": 6,
-    "title": "Automotivo"
+    "title": "Automotivo",
+    "slug": "automotivo"
   },
   {
     "id": 7,
-    "title": "Jardim e Outdoor"
+    "title": "Jardim e Outdoor",
+    "slug": "jardim-e-outdoor"
   },
   {
     "id": 8,
-    "title": "Livros e Papelaria"
+    "title": "Livros e Papelaria",
+    "slug": "livros-e-papelaria"
   }
 ]

@@ -30,7 +30,13 @@ export function ProductCard({ title, image, price, oldPrice }: IProductCards) {
       )}
 
       <ProductImageContainer>
-        <ProductImage src={image} />
+        <ProductImage
+          src={image ?? import.meta.env.VITE_APP_PRODUCT_IMAGE_PLACEHOLDER}
+          onError={(e) =>
+            (e.currentTarget.src =
+              import.meta.env.VITE_APP_PRODUCT_IMAGE_PLACEHOLDER)
+          }
+        />
       </ProductImageContainer>
       <ProductInformations>
         <ProductTitle>{title}</ProductTitle>

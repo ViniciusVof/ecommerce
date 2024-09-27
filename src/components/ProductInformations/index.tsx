@@ -30,7 +30,7 @@ interface IVariantsProducts {
 interface IProductInformations {
   title: string;
   price: number;
-  oldPrice: number;
+  oldPrice?: number;
   installments?: number;
   description: string;
   variants?: IVariantsProducts;
@@ -59,7 +59,7 @@ export function ProductInformations({
   return (
     <Wrapper>
       <ProductTitle>{title}</ProductTitle>
-      <ProductOldPrice>{formatMoney(oldPrice)}</ProductOldPrice>
+      {oldPrice && <ProductOldPrice>{formatMoney(oldPrice)}</ProductOldPrice>}
       <ProductPrice>{formatMoney(price)}</ProductPrice>
 
       {installments && (
